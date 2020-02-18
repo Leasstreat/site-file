@@ -1,0 +1,8 @@
+* {
+    background-color: seagreen;
+}
+
+.href:hover {
+    color: springgreen;
+    background-color: steelblue;
+}

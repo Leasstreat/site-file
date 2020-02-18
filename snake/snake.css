@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody { /*Read more about class naming | Please don't use camelCase for CSS class names*/
+    background: url(almaz.jpg); /*Almaz????? English pls*/
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.head { /*Read more about class naming*/
+    background: url(kirka.jpg); /*kirka????? English pls*/
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.mouse { /*Read more about class naming*/
+    background: url(almaz\ ruda2.jpg); /*ruda2????? English pls*/
+    background-size: cover;
+}
